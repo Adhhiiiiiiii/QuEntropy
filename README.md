@@ -23,7 +23,6 @@
 11. [Future Improvements](#-future-improvements)
 12. [Author](#-author)
 13. [License](#-license)
-14. [Summary](#-summary)
 
 ---
 
@@ -109,13 +108,88 @@ EntropyX assists analysts in identifying and visualizing hidden data zones in di
 | *JSON* | Forensic export format |
 
 ---
-
 ## 🛠 Installation & Setup
 
 ### 🔧 Requirements
-- Python 3.8+
-- Virtual environment recommended
+
+- Python 3.8+  
+- Virtual environment recommended  
 
 ### 📦 Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+````
+
+If issues arise with Qiskit or Numpy:
+
+```bash
+pip install --only-binary=:all: numpy
+pip install qiskit-terra qiskit-aer
+```
+
+### ▶ Run EntropyX
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🗂 File Structure
+
+```
+EntropyX/
+├── app.py                # Streamlit UI
+├── quantum_entropy.py    # Entropy analysis logic
+├── profiles.db           # SQLite database (auto-created)
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📷 Screenshots
+
+*(Add actual images in your repository or markdown rendering platform)*
+
+* 🔹 **Entropy Visualization**
+* 🔹 **Heatmap of File Entropy**
+* 🔹 **Anomaly Detection View**
+
+---
+
+## 🛡 Forensic Value
+
+| Feature                 | Benefit                              |
+| ----------------------- | ------------------------------------ |
+| Quantum Proxy Entropy   | Simulated next-gen forensic analysis |
+| Sliding Window Sampling | Detects fine-grained payloads        |
+| Local Database          | Case management and storage          |
+| JSON Export             | Portable, auditable evidence         |
+| Offline Operation       | 100% local and secure                |
+
+---
+
+## 🧭 Future Improvements
+
+* 🔍 Integrate YARA pattern matching
+* 🧠 Connect to real IBM Quantum hardware
+* 🧠 Add memory dump analysis support
+* 📝 Include chain-of-custody metadata
+* 📄 Auto-generate PDF forensic reports
+
+---
+
+## 👨‍💻 Author
+
+**Adhiyaman Babu**
+
+Cybersecurity & Quantum Computing Enthusiast
+🌐 [GitHub](#) · 💼 [LinkedIn](#)
+
+---
+
+## 📜 License
+
+This project is open source under the **MIT License**.
