@@ -149,16 +149,6 @@ EntropyX/
 
 ---
 
-## 📷 Screenshots
-
-*(Add actual images in your repository or markdown rendering platform)*
-
-* 🔹 **Entropy Visualization**
-* 🔹 **Heatmap of File Entropy**
-* 🔹 **Anomaly Detection View**
-
----
-
 ## 🛡 Forensic Value
 
 | Feature                 | Benefit                              |
