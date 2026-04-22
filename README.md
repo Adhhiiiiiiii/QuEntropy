@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Qiskit](https://img.shields.io/badge/Qiskit-Optional-purple)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -18,13 +17,10 @@
 6. [Technologies Used](#-technologies-used)
 7. [Installation & Setup](#-installation--setup)
 8. [File Structure](#-file-structure)
-9. [Screenshots](#-screenshots)
-10. [Forensic Value](#-forensic-value)
-11. [Future Improvements](#-future-improvements)
-12. [Author](#-author)
-13. [License](#-license)
+9. [Forensic Value](#-forensic-value)
 
----
+
+
 
 ## 🔍 Project Overview
 
@@ -37,7 +33,7 @@ It helps detect suspicious file regions that may indicate:
 
 > 🧠 Built for education and demonstration — showing how quantum-inspired algorithms can enhance modern digital forensics.
 
----
+
 
 ## 🚀 Features
 
@@ -53,7 +49,7 @@ It helps detect suspicious file regions that may indicate:
 - 💾 Save/load profiles in *SQLite database*  
 - 📤 Export results as *JSON forensic reports*
 
----
+
 
 ## 🧪 Quantum Simulation
 
@@ -64,7 +60,7 @@ When available, *Qiskit* powers a simulated quantum backend that:
 
 > 🔁 If Qiskit isn’t installed, EntropyX automatically falls back to a *pseudo-quantum estimator* using randomized classical approximations.
 
----
+
 
 ## 📊 Visualization
 
@@ -72,7 +68,7 @@ When available, *Qiskit* powers a simulated quantum backend that:
 - *Heatmap* visualization of entropy across file regions  
 - Adjustable *thresholds* for custom anomaly sensitivity  
 
----
+
 
 ## 🔄 Sliding Window Analysis
 
@@ -80,7 +76,7 @@ When available, *Qiskit* powers a simulated quantum backend that:
 - Detects subtle, localized entropy variations  
 - Ideal for identifying *partial encryptions* or *hidden payloads*
 
----
+
 
 ## 💼 Use Case: Cyber Forensics
 
@@ -93,7 +89,7 @@ EntropyX assists analysts in identifying and visualizing hidden data zones in di
 | 🧩 Data Tampering | Highlight irregular entropy distributions |
 | 🧾 Evidence Profiling | Export entropy maps for forensic documentation |
 
----
+
 
 ## 🧠 Technologies Used
 
@@ -107,7 +103,7 @@ EntropyX assists analysts in identifying and visualizing hidden data zones in di
 | *SQLite* | Persistent profile database |
 | *JSON* | Forensic export format |
 
----
+
 ## 🛠 Installation & Setup
 
 ### 🔧 Requirements
@@ -134,7 +130,7 @@ pip install qiskit-terra qiskit-aer
 streamlit run app.py
 ```
 
----
+
 
 ## 🗂 File Structure
 
@@ -147,7 +143,7 @@ EntropyX/
 └── README.md
 ```
 
----
+
 
 ## 🛡 Forensic Value
 
@@ -159,15 +155,6 @@ EntropyX/
 | JSON Export             | Portable, auditable evidence         |
 | Offline Operation       | 100% local and secure                |
 
----
-
-## 🧭 Future Improvements
-
-* 🔍 Integrate YARA pattern matching
-* 🧠 Connect to real IBM Quantum hardware
-* 🧠 Add memory dump analysis support
-* 📝 Include chain-of-custody metadata
-* 📄 Auto-generate PDF forensic reports
 
 ---
 
@@ -178,8 +165,3 @@ EntropyX/
 Cybersecurity & Quantum Computing Enthusiast
 🌐 [GitHub](https://github.com/Adhhiiiiiiii) · 💼 [LinkedIn](https://www.linkedin.com/in/adhiyaman-babu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
----
-
-## 📜 License
-
-This project is open source under the **MIT License**.
